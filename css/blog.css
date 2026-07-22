@@ -2099,13 +2099,13 @@ img{max-width:100%;height:auto}
   margin-bottom: 2.5rem; position: relative; z-index: 1;
   transition: color .2s;
 }
-.art-back-btn:hover { color: var(--terra); }
+.art-back-btn:hover { color: var(--sand); }
 .art-cat-pill {
   display: inline-flex; align-items: center; gap: .4rem;
   font-size: .6rem; letter-spacing: .2em; text-transform: uppercase;
   font-weight: 700; font-family: var(--ft);
   padding: .35rem 1rem; border-radius: 100px;
-  background: rgba(5,23,71,.18); color: var(--terra);
+  background: rgba(231,233,240,.15); color: var(--sand);
   margin-bottom: 1.8rem; position: relative; z-index: 1; width: fit-content;
 }
 .art-h1 {
@@ -2122,10 +2122,10 @@ img{max-width:100%;height:auto}
 }
 .art-meta-date { font-size: .68rem; color: rgba(255,255,255,.4); font-family: var(--ft); letter-spacing: .06em; }
 .art-meta-read {
-  font-size: .68rem; color: var(--terra); font-family: var(--ft); letter-spacing: .04em;
+  font-size: .68rem; color: rgba(255,255,255,.4); font-family: var(--ft); letter-spacing: .04em;
   display: flex; align-items: center; gap: .4rem;
 }
-.art-meta-read::before { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--terra); }
+.art-meta-read::before { content: ''; width: 4px; height: 4px; border-radius: 50%; background: rgba(255,255,255,.4); }
 .art-meta-author { font-size: .68rem; color: rgba(255,255,255,.4); font-family: var(--ft); }
 .art-meta-author strong { color: rgba(255,255,255,.7); }
 
